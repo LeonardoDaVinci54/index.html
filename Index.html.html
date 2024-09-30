@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Arcenal's Pizza Parlor</title>
+
+</head>
+<body>
+<header>
+  <div class="container">
+    <nav>
+      <div class="logo">Arcenal's Pizza Parlor</div>
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Pasta</a></li>
+        <li><a href="#">Combo Deals</a></li>
+        <li><a href="#">Locate Us</a></li>
+        <li><a href="#">Events</a></li>
+      </ul>
+    </nav>
+
+<div class="container">
+  <div class="menu-section">
+    <div class="menu-item">Pizza</div>
+    <div class="menu-item">Pasta</div>
+    <div class="menu-item">Combo Deals</div>
+  </div>
+
+  <h2 style="text-align: center;">All Time Favourite</h2>
+
+  <div class="pizza-list">
+    <div class="pizza-item">
+      <h2>Cauliflower crust Pizza</h2>
+      <p>cauliflower, tomato, red onion & cheese</p>
+      <img src="cauli.jfif" alt="Cauliflower crust Pizza">
+      <h4>Price: $50.00</h4>
+
+    </div>
+
+    <div class="pizza-item">
+      <h2>Mushroom-Prosciutto Pizza</h2>
+      <p>mushroom, cheese & prosciutto</p>
+      <img src="mushroom-prosciutto.jfif" alt="Mushroom-Prosciutto Pizza">
+      <h4>Price: $50.00</h4>
+    </div>
+
+    <div class="pizza-item">
+      <h2>Shrimp spinach Pizza</h2>
+      <p>shrimp, spinach, basil, cheese & mushroom</p>
+      <img src="Shrimp-spinach.jpg" alt="Shrimp spinach Pizza">
+      <h4>Price: $60.00</h4>
+    </div>
+
+    <div class="pizza-item">
+      <h2>Broccoll Bacon Pizza</h2>
+      <p>broccoli, bacon, chicken slice & cheese</p>
+      <img src="broccoll.jfif" alt="Broccoll Bacon Pizza">
+      <h4>Price: $50.00</h4>
+    </div>
+
+    <div class="pizza-item">
+      <h2>Chicken and Artichoke Pizza</h2>
+      <p>chicken breast, artichoke, tomato & cheese</p>
+      <img src="chicken-artichoke.jpg" alt="Chicken and Artichoke Pizza">
+      <h4>Price: $80.00</h4>
+    </div>
+
+    <div class="pizza-item">
+      <h2>Old West BBQ Pizza</h2>
+      <p>chicken breast, green chili, sweet onion &cheese</p>
+      <img src="bbq-chicken.jpg" alt="Old West BBQ Pizza">
+      <h4>Price: $90.00</h4>
+      </div>
+
+    <div class="pizza-item">
+      <h2>Eggplant Pizza</h2>
+      <p>eggplant, tomato, red onion & cheese</p>
+      <img src="eggplant-parmesan.jpg" alt="Eggplant Pizza">
+      <h4>Price: $85.00</h4>
+    </div>
+
+    <div class="pizza-item">
+      <h2>French Onion Pizza</h2>
+      <p>French onion, cheese & mushroom</p>
+      <img src="french onion.webp" alt="French Onlon Pizza">
+      <h4>Price: $70.00</h4>
+    </div>
+
+   <div class="pizza-item">
+    <h2>Supreme  Pizza</h2>
+    <p>pepperoni, sausage, mushroom, onion, bell pepper & cheese</p>
+    <img src="supreme.jpg" alt="Supreme Pizza">
+    <h4>Price: $100.00</h4>
+  </div>
+  </div>
+  </div>
+  </body>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+    }
+    
+    header {
+      background-color: #0f4c62;
+      padding: 10px 0;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+    
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #f00;
+    }
+    
+    .menu-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+    }
+    
+    .menu-item {
+      background-color: #f00;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-align: center;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    
+    .pizza-list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-top: 20px;
+    }
+    
+    .pizza-item {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .pizza-item img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+    .pizza-item h3 {
+      margin-top: 10px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    
+    .pizza-item p {
+      margin-top: 5px;
+      font-size: 14px;
+    }
+    
+    .pizza-item .calories {
+      margin-top: 10px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    
+    footer ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    footer li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+    
+    footer a {
+      text-decoration: none;
+      color: #fff;
+    }
+    
+    .social-media {
+      margin-top: 10px;
+    }
+    
+    .social-media a {
+      display: inline-block;
+      margin-right: 10px;
+    }
+    
+    .social-media img {
+      width: 20px;
+      height: 20px;
+    }
+    .pizza-item img{
+      margin-left: 20px;
+      margin-bottom: 10px;
+      height: 270px;
+      width: 300px;
+    }
+    </style>
+  </html>
+                                                                     
